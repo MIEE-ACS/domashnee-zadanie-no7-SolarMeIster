@@ -33,7 +33,7 @@
         <Image Margin="437,104,-369,0" Source="right_wall.png" Stretch="Fill" Grid.RowSpan="2" Height="508" VerticalAlignment="Top"/>
         <Image Margin="482,104,-414,0" Source="right_wall.png" Stretch="Fill" Grid.RowSpan="2" Height="508" VerticalAlignment="Top"/>
         <Image Margin="-14,-228,0,0" Source="down_wall.png" Stretch="Fill" Grid.RowSpan="2"/>
-        <Button Content="Start" Height="66" HorizontalAlignment="Left" Margin="339,236,0,0" Name="button1" VerticalAlignment="Top" Width="138" Click="button1_Click" Grid.Row="1" Background="#00000000" BorderBrush="#00000000" FontSize="30" FontFamily="Gill Sans Ultra Bold" Foreground="#FF850F0F"/>
+        <Button Content="Start" Height="87" HorizontalAlignment="Left" Margin="277,225,0,0" Name="button1" VerticalAlignment="Top" Width="228" Click="button1_Click" Grid.Row="1" BorderBrush="#00000000" FontSize="30" FontFamily="Gill Sans Ultra Bold" Foreground="#FF850F0F" Background="#00000000"/>
         <Image x:Name="imGameOver" Margin="145,41,240,81" Source="GameOver.png" Stretch="Fill" Grid.RowSpan="2" Visibility="Hidden"/>
     </Grid>
 </Window>
