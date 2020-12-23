@@ -120,6 +120,42 @@
   <ItemGroup>
     <Resource Include="Resources\logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\rabbit_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iso-snake-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="left_wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="right_wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="up_wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="down_wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="GameOver.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
