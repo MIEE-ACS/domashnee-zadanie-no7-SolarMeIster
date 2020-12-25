@@ -206,6 +206,7 @@ namespace Snake
                 {
                     //мы проиграли
                     moveTimer.Stop();
+                    button1.Visibility = Visibility.Visible;
                     imGameOver.Visibility = Visibility.Visible;
                     return;
                 }
@@ -216,6 +217,7 @@ namespace Snake
             {
                 //мы проиграли
                 moveTimer.Stop();
+                button1.Visibility = Visibility.Visible;
                 imGameOver.Visibility = Visibility.Visible;
                 return;
             }
